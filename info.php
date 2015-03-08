@@ -8,11 +8,11 @@
       </a>
     </nav>
     <div class="container-fluid">      
-      <div class="new_search">
+      <div class="new_search text-center">
         <h3 class="text-center"><a href="index.php">New Search</a></h3>
       </div>
       
-      <div class="col-md-12">
+      <div class="col-sm-4 col-sm-offset-4">
         <h1 class="text-center resturant_name">Fozzie Pizza</h1>
         <ul class="list-unstyled menu_items">
           <li>
@@ -35,14 +35,16 @@
             <div class="pull-right">$2.50</div>
           </li>
         </ul>
+        <div class="clearfix"></div>
+        <ol class="finder_selectable list-unstyled">
+          <li class="ui-state-default ui-selected google_map google_map_info">
+            <a href="https://www.google.com/maps/preview">
+              <i class="fa fa-map-marker"></i>           
+            </a>
+          </li>
+        </ol>
       </div>
-      <ol class="finder_selectable list-unstyled">
-        <li class="ui-state-default ui-selected google_map google_map_info">
-          <a href="https://www.google.com/maps/preview">
-            <i class="fa fa-map-marker"></i>           
-          </a>
-        </li>
-      </ol>
+      
       <div class="clearfix"></div>
       <h3 class="text-center">Navigate Here</h3>
     </div>

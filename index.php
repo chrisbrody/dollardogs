@@ -1,13 +1,13 @@
 <?php include('header.php') ?>
 
-  <body>
+  <body onload="getLocation()">
     <!-- Top Navigation & Logo -->
     <nav class="navbar navbar-fixed-top">
       
     </nav>
     <div class="container-fluid">
       <!-- How Much to Spend -->
-      <div class="">
+      <div class="col-sm-4 col-sm-offset-4">
         <div class="amount">
           <h2>I want to spend...</h2>
           <ol id="amount_selectable" class="list-unstyled">
@@ -18,7 +18,7 @@
         </div>
       </div>
       <!-- How Far to Travel -->
-      <div class="">
+      <div class="col-sm-4 col-sm-offset-4">
         <div class="distance">
           <h2>Max travel distance...</h2>
           <ol id="distance_selectable" class="list-unstyled">
@@ -31,7 +31,7 @@
         </div>
       </div>
       <!-- What to Eat -->
-      <div class="">
+      <div class="col-sm-4 col-sm-offset-4">
         <div class="food">
           <h2>I want to eat...</h2>
           <div class="input-group input-lg">
@@ -42,7 +42,7 @@
       </div>
       <div class="clearfix"></div>
       <!-- Find Food Button -->
-      <div class="">
+      <div class="col-sm-4 col-sm-offset-4">
         <div class="find">
           <a class="btn" href="finder.php">Find Food</a>
         </div>

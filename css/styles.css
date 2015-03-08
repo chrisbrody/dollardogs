@@ -220,8 +220,8 @@ nav.finder {
 	font-weight: bold;
 }
 .finder_item img {
-	display: block;
-	margin: auto;
+    display: block;
+	margin: 0 auto;
 	height: 100px;
 	width: 100px;
 }
@@ -268,8 +268,7 @@ li.google_map {
     width: 54px;
 }
 li.google_map_info {
-	margin-left: 43%;
-	margin-top: 15%;
+    
 }
 .new_search {
 	border-bottom: 5px solid grey;

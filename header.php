@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hungry Hungry Hipster - Find $1 - $3 Foods in New York City within 1.5 Miles of your Current Location</title>
+    <title>Dollar Dogs - Find $1 - $3 Foods in New York City within 0.5 mile of your Current Location</title>
     <link rel="shortcut icon" href="favicon.ico">
     <meta charset="UTF-8">
-  	<meta name="description" content="Codify Academy's Boiler Plate">
-  	<meta name="keywords" content="Codify Academy, Boiler Plate, HTML, CSS, Javascript">
+  	<meta name="description" content="">
+  	<meta name="keywords" content="">
   	<meta name="author" content="Codify Academy">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome Icons -->
