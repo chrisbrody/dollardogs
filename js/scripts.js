@@ -9,7 +9,8 @@ $(function() {
    
 
 // GEO LOCATION
-var x = document.getElementById("demo");
+var Latitude;
+var Longitude;
 
 function getLocation() {
     if (navigator.geolocation) {
@@ -20,6 +21,6 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude + 
-    "<br>Longitude: " + position.coords.longitude;	
+    Latitude = position.coords.latitude; 
+    Longitude = position.coords.longitude;	
 }

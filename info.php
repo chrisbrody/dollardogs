@@ -2,10 +2,11 @@
 
   <body>
     <!-- Top Navigation & Logo -->
-    <nav class="navbar navbar-fixed-top finder">
-      <a href="finder.php">
+    <nav class="navbar navbar-fixed-top finder" style="height: 55px;">
+      <a href="finder.php" class="pull-left">
         <i class="fa fa-long-arrow-left fa-4x"></i>        
       </a>
+      <div class="navbar-brand">DOLLAR DOGS</div>
     </nav>
     <div class="container-fluid">      
       <div class="new_search text-center">
@@ -38,7 +39,7 @@
         <div class="clearfix"></div>
         <ol class="finder_selectable list-unstyled">
           <li class="ui-state-default ui-selected google_map google_map_info">
-            <a href="https://www.google.com/maps/preview">
+            <a href="http://www.google.com/">
               <i class="fa fa-map-marker"></i>           
             </a>
           </li>

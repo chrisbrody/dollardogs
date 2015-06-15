@@ -36,11 +36,16 @@ body {
 	padding-top: 7.5vh;
 
 }
+body.addFood {
+    overflow-y: scroll;
+}
 .navbar {
 	background-color: #da4936;
 	border-bottom: 2px solid #da3c36 !important;
-	height: 8vh;
 	min-height: 10px;
+}
+.navbar-brand {
+    color: #FFFFFF;
 }
 
 .amount {
@@ -87,7 +92,7 @@ body {
     float: left;
     font-size: 3em;
     height: 75px;
-    margin-left: 7%;
+    margin-left: 6vh;
     padding: 7px 0 0 5px;
     width: 75px;
 }
@@ -116,7 +121,8 @@ body {
 }
 
 .distance {
-	height: 24vh;
+	height: 25vh;
+    margin-top: 25vh;
 }
 
 
@@ -151,15 +157,19 @@ body {
 }
 
 .find {
-	height: 15vh;
+    height: 15vh;
+    position: fixed;
+    bottom: 10vh;
+    width: 100%;
+    margin-left: -15px;
 }
-.find button {
+button.find {
     background: none repeat scroll 0 0 #f2f2db;
     border: medium none;
     display: block;
     margin: auto;
 }
-.find a {
+a#find {
     background-color: #da4936;
     border-radius: 5%;
     color: white;
@@ -194,8 +204,11 @@ body {
 body.finder {
 	padding-top:45px;
 }
-nav.finder {
-	height: 50px;
+body.finder nav {
+	height: 55px;
+}
+.navbar-brand {
+  padding: 18px 15px;
 }
 .fa-long-arrow-left {
 	font-weight: bold;
@@ -209,22 +222,25 @@ nav.finder {
 .fa-long-arrow-left:hover {
 	color: lightgrey;
 }
-.finder_item {
-	border-top:5px solid grey !important;
-	margin-top: 5px;
+.finderItem {
+	margin-top: 5vh;
 }
-.finder_item.first {
-	margin-top:;
+.finderItem h4:first-child {
+    text-align: center;
 }
-.finder_item h4 {
+.finderItem h4 {
 	font-weight: bold;
 }
-.finder_item img {
+.finderItem hr {
+     border-color:#da4936; 
+     border-width:3px;
+}
+/*.finder_item img {
     display: block;
 	margin: 0 auto;
 	height: 100px;
-	width: 100px;
-}
+	width: 50%;
+}*/
 
 .finder_selectable li {
     cursor: pointer;
@@ -243,11 +259,13 @@ nav.finder {
     transition:all 0.3s ease-in-out;
 }
 .finder_selectable li a i.fa-map-marker{ 
-    padding: 7px 13px 0;
+    padding: 12px 17px 0;
 }
 .finder_selectable li:hover a i{ 
 	color: lightgrey;
 }
+
+
 li.google_map {
 	-o-transform: rotate(45deg);
 	-khtml-transform: rotate(45deg);
@@ -291,30 +309,4 @@ ul.menu_items li div {
 	padding:10px 0;
 	font-size: 20px;
 }
-
-/****** Style Star Rating Widget *****/
-.rating { 
-  border: none;
-  float: left;
-  margin-left: 7%;
-}
-.rating > input { display: none; } 
-.rating > label:before { 
-  margin-right: 5px;
-  font-size: 1em;
-  font-family: FontAwesome;
-  display: inline-block;
-  content: "\f005";
-}
-.rating > .half:before { 
-  content: "\f089";
-  position: absolute;
-}
-.rating > label { 
-  color: #ddd; 
- float: right; 
-}
-.rating > input:checked ~ label { color: #FFD700;  } 
-
-
 
